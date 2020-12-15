@@ -66,7 +66,8 @@ module.exports = function(RED) {
         
         if (certificatepath !== null && certificatepath != ""){
             config.ldap.tlsOptions = {
-                ca: [ fs.readFileSync(certificatepath) ]
+                ca: [ fs.readFileSync(certificatepath) ],
+                host: server
             };
         }
         
