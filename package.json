@@ -6,7 +6,7 @@
         "url": "https://github.com/xeaon/node-red-contrib-better-ldapauth/issues"
     },
     "name": "node-red-contrib-better-ldapauth",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Authenticate against LDAP server",
     "dependencies": {
         "ldapauth-fork": "latest"
