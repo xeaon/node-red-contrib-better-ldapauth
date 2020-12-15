@@ -3,7 +3,7 @@
         "name": "Kemal Soyguder"
     },
     "bugs": {
-        "url": "https://github.com/xeaon/node-red-contrib-nr-ldapauth/issues"
+        "url": "https://github.com/xeaon/node-red-contrib-better-ldapauth/issues"
     },
     "name": "node-red-contrib-better-ldapauth",
     "version": "1.0.14",
@@ -14,7 +14,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/xeaon/node-red-contrib-nr-ldapauth.git"
+        "url": "https://github.com/xeaon/node-red-contrib-better-ldapauth.git"
     },
     "keywords": [
         "node-red",
