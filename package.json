@@ -9,7 +9,7 @@
     "version"      : "1.0.14",
     "description"  : "Authenticate against LDAP server",
     "dependencies": {
-        "ldapauth-fork": "4.*"
+        "ldapauth-fork": "latest"
     },
     "license": "MIT",
     "repository": {
