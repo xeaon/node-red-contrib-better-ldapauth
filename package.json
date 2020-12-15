@@ -1,11 +1,11 @@
 {
     "author": {
-        "name": "Adam Sage"
+        "name": "Kemal Soyguder"
     },
     "bugs": {
-        "url": "https://github.com/atsage/node-red-contrib-nr-ldapauth/issues"
+        "url": "https://github.com/xeaon/node-red-contrib-nr-ldapauth/issues"
     },
-    "name": "node-red-contrib-nr-ldapauth",
+    "name": "node-red-contrib-better-ldapauth",
     "version": "1.0.14",
     "description": "Authenticate against LDAP server",
     "dependencies": {
@@ -14,7 +14,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/atsage/node-red-contrib-nr-ldapauth.git"
+        "url": "https://github.com/xeaon/node-red-contrib-nr-ldapauth.git"
     },
     "keywords": [
         "node-red",
@@ -24,8 +24,8 @@
     ],
     "node-red": {
         "nodes": {
-            "node-red-contrib-nr-ldapauth": "nr-ldapauth/nr-ldapauth.js",
-            "node-red-contrib-nr-ldapauth-cred": "nr-ldapauth/nr-ldapauth-cred.js"
+            "node-red-contrib-better-ldapauth": "better-ldapauth/better-ldapauth.js",
+            "node-red-contrib-better-ldapauth-cred": "better-ldapauth/better-ldapauth-cred.js"
         }
     }
 }

@@ -4,7 +4,7 @@ module.exports = function(RED) {
     const util = require('util');
     const fs = require('fs');
 
-    function nrldapauth(n) {
+    function betterldapauth(n) {
         function ldapconnect(config){
             var ldapconnection = new LdapAuth({
                 url: config.ldap.url,
@@ -170,5 +170,5 @@ module.exports = function(RED) {
             node.status({});
         });
     };
-    RED.nodes.registerType("node-red-contrib-nr-ldapauth",nrldapauth);
+    RED.nodes.registerType("node-red-contrib-better-ldapauth",betterldapauth);
 };
